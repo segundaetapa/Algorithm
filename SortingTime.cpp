@@ -12,7 +12,7 @@ int main() {
 	
 	int n; 
 	
-	scanf("%d", &n)
+	scanf("%d", &n);
 	
 	for (int i = 0; i < n; i++) {
 		scanf("%d %d %d", &a[i], &b[i], &c[i]);
@@ -25,6 +25,7 @@ int main() {
 				swap(&a[i], &a[j]);
 				swap(&b[i], &b[j]);
 				swap(&c[i], &c[j]);
+				swap(&d[i], &d[j]);
 			}
 		}
 	}
